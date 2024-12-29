@@ -1,0 +1,32 @@
+/* div{
+    height: 100px;
+    width: 100px;
+    border: 5px solid black;
+    display: inline-block;
+}
+#d1{
+    background-image: url("mypic.jpg");
+    background-size: cover;
+}
+/* body{
+    background-image: url("mypic.jpg");
+    background-size: cover;
+} */ 
+
+
+div{
+    height: 100px;
+    width: 100px;
+    color: whitesmoke;
+    font-size: medium;
+    font-weight: 50px;
+    border: 5px solid black;
+    display: inline-block;
+    background-image: url(mypic.jpg);
+    background-size: cover;
+    position:fixed;
+    border-radius: 30px;
+    right: 0;
+    top:150px
+
+   }

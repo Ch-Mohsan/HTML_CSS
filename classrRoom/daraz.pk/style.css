@@ -1,0 +1,281 @@
+html {
+    font-size: 18px; 
+}
+
+body {
+    margin: 0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+}
+
+header {
+    height: 6.25rem; 
+}
+
+.outer {
+    background-color: orangered;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+.firstBar, .secondBar {
+    display: flex;
+    align-items: center;
+}
+
+.firstBar {
+    height: 1.5625rem; 
+    background-color: orangered;
+}
+
+.firstBar a {
+    text-decoration: none;
+    margin-left: 1.25rem;
+    color: white;
+}
+
+.secondBar {
+    height: 4.0625rem;
+    justify-content: space-between;
+    padding: 0 0.625rem;
+}
+
+.select select, .searchbox input {
+    height: 1.875rem; 
+    border: none;
+    border-radius: 0.3125rem; 
+}
+
+.select select {
+    width: 4.375rem; 
+}
+
+.searchbox {
+    flex-grow: 1;
+    height: 2.5rem; 
+    margin: 0 1.25rem; 
+    border-radius: 0.3125rem; 
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 0 0.625rem; 
+    position: relative;
+}
+
+.searchbox input {
+    width: 100%;
+    border: none;
+    border-radius: 0.3125rem; /* 5px */
+}
+
+.searchicon {
+    position: absolute;
+    right: 0.625rem; /* 10px */
+    color: orangered;
+    cursor: pointer;
+}
+
+.logo {
+    width: 7.5rem; /* 120px */
+    height: 3rem; /* 48px */
+    background-image: url(dara-logo.png);
+    background-size: cover;
+}
+
+input {
+    width: 90%;
+}
+
+.login, .signup, .lang, .cart {
+    display: flex;
+    align-items: center;
+    padding: 0 0.625rem; /* 10px */
+    cursor: pointer;
+}
+
+.shop {
+    padding-top: 1rem; /* 16px */
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.box1 {
+    height: 20.3125rem; /* 325px */
+    width: 11.8125rem; /* 189px */
+}
+
+.box1 .image {
+    height: 11.8125rem; /* 189px */
+    width: 11.1875rem; /* 179px */
+    background-size: cover;
+}
+
+.content {
+    height: 7.5rem; /* 120px */
+    width: 11.1875rem; /* 179px */
+    color: black;
+}
+
+.content #discount {
+    font-size: 0.8rem; /* 12.8px */
+    text-decoration: line-through;
+}
+
+.content #price {
+    color: rgb(255, 166, 0); /* Orange color */
+    font-size: 1.3rem; /* 20.8px */
+}
+
+.content #title {
+    font-size: 0.7rem; /* 11.2px */
+}
+
+.select select:focus, 
+.searchbox input:focus {
+    outline: none;
+    border: 0.15rem solid orange; /* 2.4px */
+}
+
+.image {
+    background-size: cover;
+}
+
+.p1 {
+    background-image: url(wardrobe.jpg);
+}
+
+.p2 {
+    background-image: url(watch.jpg);
+}
+
+.p3 {
+    background-image: url(wirless.webp);
+}
+
+.p4 {
+    background-image: url(mytshirt.webp);
+}
+
+.p5 {
+    background-image: url(laptop.webp);
+}
+
+.p6 {
+    background-image: url(wallot.webp);
+}
+
+.p7 {
+    background-image: url(facewash.webp);
+}
+
+.p8 {
+    background-image: url(woman.webp);
+}
+
+.mainFooter {
+    height: 500px;
+    border: 3px solid black;
+    margin-top: 15px;
+}
+
+.heading {
+    height: 69px;
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading button {
+    height: 40px;
+    width: 250px;
+    font-size: 0.90rem;
+    color: orangered;
+    border: 2px solid orangered;
+}
+
+.contentFooter {
+    height: 400px;
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 2px dashed green;
+}
+
+.contentBox {
+    width: 200px;
+    height: 350px;
+    color: black;
+}
+
+.contentBox li {
+    list-style-type: none;
+    font-size: 0.95rem;
+}
+
+#contentTitle {
+    color: orangered;
+    font-size: 1.050rem;
+}
+
+.contentLogo {
+    display: inline-block;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 10px; /* Add some space between each logo block */
+}
+
+.conturylogo {
+    height: 30px;
+    width: 30px;
+    margin: 5px;
+    border-radius: 45%;
+    background-size: cover;
+    margin-right: 10px; /* Add some space between the logo and the text */
+}
+.contentLogo p{
+    margin-left: 5px;
+}
+
+#pak {
+    background-image: url(paklogo.png);
+}
+
+#ban {
+    background-image: url(banlogo.jpeg);
+}
+
+#nepal {
+    background-image: url(nepallogo.png);
+}
+
+#seri {
+    background-image: url(serilogo.jpeg);
+}
+
+.paylogo {
+    height: 30px;
+    width: 30px;
+    margin: 5px;
+    border-radius: 45%;
+    background-size: cover;
+    margin-right: 10px; /* Add some space between the logo and the text */
+}
+
+#jazz {
+    background-image: url(jazzlogo.jpeg);
+}
+#easy {
+    background-image: url(easiylogo.jpeg);
+}
+#hbl {
+    background-image: url(hbllogo.png);
+}
+#visa {
+    background-image: url(visa.png);
+}
